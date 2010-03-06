@@ -131,7 +131,7 @@ function Ted_VSB_settings_page() {
 				</td>
 				</tr>
 				<tr valign="top">
-				<th scope="row"><?php _e('Sur quelles pages ?'); ?> :</th>
+				<th scope="row"><?php _e('On wich templates pages ?'); ?> :</th>
 				<td>		
 				<input name="ted_vsb_page_<?php echo $i; ?>_Index"    type=checkbox value="1" <?php if(get_option('ted_vsb_page_'.$i."_Index")    =="1") echo " checked"; ?> >Index
 				<input name="ted_vsb_page_<?php echo $i; ?>_Page"     type=checkbox value="1" <?php if(get_option('ted_vsb_page_'.$i."_Page")     =="1") echo " checked"; ?> >Page
